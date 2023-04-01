@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="box">
+      <div class="close">
+        <img src="./img/close.png" alt="close" />
+      </div>
+      <div class="box-header">
+        <h2>Войти в личный кабинет</h2>
+        <div class="input">
+          <input
+            type="tel"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            required
+            placeholder="Номер телефона"
+          />
+        </div>
+        <div class="input">
+          <input type="password" placeholder="Пароль" />
+          <img class="glazO" src="./img/glaz-open.png" alt="glaz" />
+          <img class="glazC" src="./img/glaz-close.png" alt="" />
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" />
+          <label for="">Запомнить меня</label>
+        </div>
+      </div>
+      <div class="box-button">
+        <input class="button" type="button" value="Войти" />
+        <a href="#">Забыли пароль?</a>
+      </div>
+      <div class="registration">
+        <h4>Вы еще не заригистрированы?</h4>
+        <input class="button-registration" type="button" value="РЕГИСТРАЦИЯ" />
+      </div>
+    </div>
+  </body>
+</html>
